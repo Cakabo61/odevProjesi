@@ -1,0 +1,15 @@
+bootExample\service\MeetingService.class
+bootExample\dao\EmployeeDao.class
+bootExample\Application.class
+bootExample\controller\BasicRestController.class
+bootExample\model\Department.class
+bootExample\model\User.class
+bootExample\model\Employee.class
+bootExample\controller\MainController.class
+bootExample\service\DepartmentService.class
+bootExample\dao\MeetingDao.class
+bootExample\model\Meeting.class
+bootExample\dao\DepartmentDao.class
+bootExample\service\EmployeeService.class
+bootExample\model\UsersRole.class
+bootExample\model\Role.class

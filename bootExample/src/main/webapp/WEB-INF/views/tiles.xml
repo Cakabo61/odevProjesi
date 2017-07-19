@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC 
+			"-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" 
+			"http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+	<definition name="main.base" template="/WEB-INF/views/tiles/layouts/default.jsp">
+		<put-attribute name="title" value="LMS"></put-attribute>
+		<put-attribute name="header" value="/WEB-INF/views/tiles/templates/header.jsp"></put-attribute>
+		<put-attribute name="footer" value="/WEB-INF/views/tiles/templates/footer.jsp"></put-attribute>
+		<put-attribute name="sidebar" value="/WEB-INF/views/tiles/templates/sidebar.jsp"></put-attribute>
+		<put-attribute name="content" value="/WEB-INF/views/tiles/templates/content.jsp"></put-attribute>
+		<put-attribute name="script" value="/WEB-INF/views/tiles/templates/script.jsp"></put-attribute>
+		<put-attribute name="style" value="/WEB-INF/views/tiles/templates/style.jsp"></put-attribute>
+	</definition>
+
+	<definition name="home" extends="main.base">
+		<put-attribute name="title" value="HOME PAGE"></put-attribute>
+		<put-attribute name="content" value="/WEB-INF/views/pages/home.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="employee" extends="main.base">
+		<put-attribute name="title" value="Employee"></put-attribute>
+		<put-attribute name="content" value="/WEB-INF/views/pages/employee/employee.jsp"></put-attribute>
+		<put-attribute name="script" value="/WEB-INF/views/pages/employee/script.jsp"></put-attribute>
+	</definition>
+	
+		<definition name="department" extends="main.base">
+		<put-attribute name="title" value="Department"></put-attribute>
+		<put-attribute name="content" value="/WEB-INF/views/pages/department/department.jsp"></put-attribute>
+		<put-attribute name="script" value="/WEB-INF/views/pages/department/script.jsp"></put-attribute>
+	</definition>
+	
+		<definition name="meetings" extends="main.base">
+		<put-attribute name="title" value="Meetings"></put-attribute>
+		<put-attribute name="content" value="/WEB-INF/views/pages/meetings/meetings.jsp"></put-attribute>
+		<put-attribute name="script" value="/WEB-INF/views/pages/meetings/script.jsp"></put-attribute>
+	</definition>
+
+</tiles-definitions>

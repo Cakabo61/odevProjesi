@@ -1,0 +1,17 @@
+.error{
+	color: red;
+}
+#vericek{
+	position: relative; top: 0 ; left:0; 
+	transform-origin: top left!important;
+	-moz-transform-origin: top left!important;
+	-o-transform-origin: top left!important;
+	-webkit-transform-origin: top left!important;
+	line-height: normal;
+	text-align: initial;
+}
+#vericek *{
+	line-height: normal;
+	text-align: initial;
+} 
+
